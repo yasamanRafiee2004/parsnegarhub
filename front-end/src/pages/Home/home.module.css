@@ -1,0 +1,121 @@
+.home {
+
+}
+
+
+.imageOne {
+    height: 700px;
+    width: 100vw;
+    background-position: center;
+    z-index: 1;
+
+}
+
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.about {
+    /* background-image: url('../../assets/images/2.png'); */
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 2rem;
+}
+
+.about h2 {
+    text-align: center;
+    color: var(--color-dark-blue);
+    font-family: 'Vazirmatn';
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.more {
+  margin-right: 55%;
+  margin-top: 10px;
+  padding: 6px 10px; 
+  display: inline-flex;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #205781;
+  border-radius: 4px;
+  color: #205781;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; 
+  width: auto;
+}
+
+
+
+.highlightSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    direction: ltr;
+    
+  }
+  
+  .highlightText {
+    text-align: right;
+    max-width: 400px;
+    margin-left: 40px;
+  }
+  
+  .highlightText h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .highlightText p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .highlightImage img {
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .HomeEditSearchBox{
+      margin-right: 8%;
+      margin-top:-150px;
+  }
+  .editTourCard{
+    flex-direction: row;
+  }
+
+
+
+  .tomb {
+    display: block;
+    width: 90vw;
+    margin: 30px auto;
+    padding: 20px; 
+    border-radius: 20px; 
+ }
+  
+
+.paraone {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white; 
+  font-family: 'Vazirmatn';
+  z-index: 2;
+  position: absolute;
+}
